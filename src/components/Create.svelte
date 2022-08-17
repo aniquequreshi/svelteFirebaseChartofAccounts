@@ -26,7 +26,7 @@ const addData = async ()=> {
     })
     name = ""
     type = ""
-    alert("Saved: " + docRef.id)
+    // alert("Saved: " + docRef.id)
     
     } catch (err) {
         console.log("ERROR Creating:" + err.message)
