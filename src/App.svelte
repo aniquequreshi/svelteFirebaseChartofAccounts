@@ -1,10 +1,12 @@
 <script>
 import Create from "./components/Create.svelte";
 import List from "./components/List.svelte";
+import UserCreate from "./components/UserCreate.svelte";
+
+
 
 let appTitle = "Chart of Accounts"
-// let showCreate = true
-// let showList = true
+
 
 </script>
 
@@ -12,9 +14,8 @@ let appTitle = "Chart of Accounts"
 
 <main>
   <h1>{appTitle}</h1>
-  <!-- {#if showCreate} -->
-    <Create />
-  <!-- {/if} -->
+  <UserCreate />
+  <Create />
   <List />
 </main>
 
