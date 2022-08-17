@@ -14,7 +14,9 @@ let appTitle = "Chart of Accounts"
 
 <main>
   <h1>{appTitle}</h1>
+  
   <UserCreate />
+  <h1 style="color: red;">Database is locked in Firebase Console.</h1>
   <Create />
   <List />
 </main>
